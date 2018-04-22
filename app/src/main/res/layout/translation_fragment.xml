@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        android:background="#b3b3b3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Text"
+            android:textSize="25dp"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_gravity="right"
+
+            ></Spinner>
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="InputText"
+
+        android:paddingLeft="2dp"
+        android:background="@drawable/border"
+        android:layout_margin="8dp"
+        android:id="@+id/editText"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        android:background="#b3b3b3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Output Text"
+            android:textSize="25sp"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/border"
+        android:layout_margin="8dp"
+        android:paddingLeft="2dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView"
+        android:textIsSelectable="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Translate"
+        android:layout_gravity="center"
+        android:id="@+id/bButton"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Speech"
+        android:layout_gravity="center"
+        android:text="Speech"
+        android:visibility="invisible"/>
+
+</LinearLayout>
+
+
